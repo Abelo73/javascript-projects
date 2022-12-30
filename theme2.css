@@ -1,0 +1,32 @@
+:root{
+	--primary-color:#232323;
+	--secondary-color:#ffffff;
+}
+
+.dark-theme{
+	--primary-color:#ffffff;
+	--secondary-color:#212121;
+}
+.container{
+	width: 300px;
+	height: 500px;
+	padding: 20px;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	box-shadow: 10px 10px 30px rgb(0, 0, 0.3);
+}
+.container .dark-icon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container img{
+	width: 30px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+
+}
