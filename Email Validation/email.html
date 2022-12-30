@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Email validation</title>
+	<link rel="stylesheet" type="text/css" href="email.css">
+	<link rel="stylesheet" type="text/css" href="Font-icon/css/all.css">
+</head>
+<body>
+
+	<div class="container">
+		<h3>Email Validation check</h3>
+		<form id="form">
+			<input type="email" name="email" id="email" onkeyup="validateEmail()" placeholder="Enter email Id"><span class="valid-email" id="valid-email"></span><br>
+			<label class="email-error" id="email-error"> </label>
+		</form>
+	</div>
+	<script type="text/javascript" src="email.js"></script>
+</body>
+</html>
