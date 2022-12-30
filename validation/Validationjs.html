@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Password validation</title>
+	<link rel="stylesheet" type="text/css" href="Validationjs.css">
+	<link rel="stylesheet" type="text/css" href="Font-icon/css/all.css">
+</head>
+<body>
+	<div id="form" class="container">
+		<form id="form">
+			<h3>REGISTERATION FORM</h3>
+			<input type="text" id="name" class="name" placeholder="Enter your name" onkeyup="validateName()"><span id="valid-name"></span><br>
+		<label class="name-error" id="name-error"></label><br>
+
+		<input type="email" id="email" class="email" placeholder="Enter your email" onkeyup="validateEmail()"><span id="valid-email"></span><br>
+		<label class="email-error" id="email-error"></label><br>
+
+		<input type="text" id="mobile" class="mobile" placeholder="Enter your phone number" onkeyup="validateMobile()"><span id="valid-mobile"></span><br>
+		<label class="mobile-error" id="mobile-error"></label><br>
+
+		<input type="password" id="password" class="password" placeholder="password" onkeyup="validatePassword()"><span id="valid-password"></span><br>
+		<label class="password-error" id="password-error"></label><br>
+
+		<input type="password" id="cpassword" class="cpassword" placeholder="conforim password" onkeyup="validateCPassword()"><span id="valid-cpassword"></span><br>
+		<label class="cpassword-error" id="cpassword-error"></label><br>
+
+
+		<button type="button" id="button" class="button">Register</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="Validationjs.js"></script>
+</body>
+</html>

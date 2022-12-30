@@ -1,0 +1,66 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	background-color: whitesmoke;
+	width: 90%;
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container form{
+	width: 300px;
+	height: 400px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 10px 10px 30px rgb(0, 0, 0.3);
+}
+.container form h3{
+	font-family: monospace;
+	font-size: 26px;
+	color: blue;
+	text-align: center;
+}
+.container form input{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid green;
+	width: 90%;
+	background-color: transparent;
+	font-size: 18px;
+	font-family: monospace;
+	padding: 5px;
+}
+.container form .password-error{
+	color: red;
+	font-size: 14px;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.container form button{
+	width: 100%;
+	background-color: green;
+	border:none;
+	outline: none;
+	font-size: 18px;
+	font-family: monospace;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.container form button:active{
+
+	background-color: blue;
+
+	
+}
